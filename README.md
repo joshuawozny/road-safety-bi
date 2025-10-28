@@ -36,5 +36,13 @@ To analyze global traffic fatality data and identify patterns by country, region
 
 ---
 
-## 🗂️ Repository Structure
-
+### 📁 Repository Structure
+```
+road-safety-bi/
+├── data/ # Source datasets (CSV or links)
+├── sql/ # SQL scripts for schema and analysis
+├── notebooks/ # Jupyter notebooks (Python EDA)
+├── visuals/ # Dashboard screenshots or exports
+├── metabase/ # Optional Metabase configuration
+├── README.md # Project overview and documentation
+└── requirements.txt # Python dependencies
